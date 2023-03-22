@@ -284,7 +284,7 @@ function allDrinks() {
     drinkUnlock = true;
     money-=unlockDrink;
     playSound("Cash-Register-(Kaching)---Sound-Effect-(HD).mp3", false);
-    setProperty("drinkBtn", "image", "https://i.ya-webdesign.com/images/cartoon-milkshake-png-7.png");
+    setProperty("drinkBtn", "image", "assets/pngtree-a-chocolate-milkshake-png-image_8642489.png");
     hideElement("drinkUnlockPrice");
   } else if ((drinkUnlock==true)) {
     money += drinksMoney+upgradeDrink;
@@ -319,7 +319,7 @@ function allWood() {
     woodUnlock = true;
     money-=unlockWood;
     playSound("Cash-Register-(Kaching)---Sound-Effect-(HD).mp3", false);
-    setProperty("woodBtn", "image", "https://cdn0.iconfinder.com/data/icons/bakery-10/512/Cookie-512.png");
+    setProperty("woodBtn", "image", "assets/cookie.png");
     hideElement("woodUnlockPrice");
   } else if ((woodUnlock==true)) {
     money += woodSum;
